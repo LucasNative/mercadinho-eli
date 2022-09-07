@@ -1,0 +1,42 @@
+.header {
+    height: 133px;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--red-500);
+    display: flex;
+    justify-content: center;
+}
+
+.headerWrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.logotype {
+    height: 6.5rem;
+    margin-bottom: calc(0px - 76px - 3.25rem);
+    z-index: 1;
+}
+
+.navigator {
+    display: flex;
+}
+
+.navigator a {
+    color: var(--white-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 200ms, antialiased;
+}
+
+.navigator a + a {
+    margin-left: 1.50rem;
+}
+
+.navigator a:hover {
+    color: var(--gray-200);
+}

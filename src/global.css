@@ -1,0 +1,36 @@
+:root {
+    --white: rgb(235, 235, 235);
+    --white-text: #ffffff;
+    --gray-200: #d8d8d8;
+    --red-500: #860221;
+    --arrow-gray: rgba(240, 240, 240, 0.904);
+    --transparency-gray: rgba(224, 224, 224, 0.355);
+    --transparency-white: rgba(230, 230, 230, 0.623);
+    --black-text: #181818;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, button, textarea, input {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+  max-width: 100vw;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
