@@ -1,0 +1,8 @@
+.carouselItem {
+  display: inline-block;
+  width: 100%;
+}
+
+.carouselItem img {
+    max-width: 100%;
+}

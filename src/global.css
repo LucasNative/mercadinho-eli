@@ -23,14 +23,3 @@ body {
 body, button, textarea, input {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-img {
-  max-width: 100vw;
-}
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

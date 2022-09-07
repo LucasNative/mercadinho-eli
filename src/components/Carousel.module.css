@@ -1,0 +1,9 @@
+.carousel {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.carouselInner {
+  white-space: nowrap;
+  transition: ease 1s;
+}

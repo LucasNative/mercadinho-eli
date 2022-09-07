@@ -1,8 +1,8 @@
-
+import styles from "./CarouselItem.module.css";
 export function CarouselItem({ slide }) {
   return (
-      <div className="carousel-item">
-        <img src={slide} />
-      </div>
+    <div className={styles.carouselItem}>
+      <img src={slide} />
+    </div>
   );
 }

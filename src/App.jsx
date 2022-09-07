@@ -8,17 +8,15 @@ import { Carousel } from './components/Carousel';
 export function App() {
 
   const slides = [
-    bannerFrango,
     bannerPadaria,
+    bannerFrango,
     bannerSuino
   ];
 
   return (
     <div>
       <Header />
-      <div className="container">
-        <Carousel slides={slides} />
-      </div>
+      <Carousel slides={slides} />
     </div>
   );
 }
